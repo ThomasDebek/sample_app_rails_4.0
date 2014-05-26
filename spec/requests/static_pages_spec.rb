@@ -40,4 +40,11 @@ describe "StaticPages" do
     end
   end
 
+  describe "Contact page"  do
+    it "should habe the contacy 'Contact' " do
+      visit '/static_pages/contact'
+      expect(page).to have_title('Contact')
+    end
+  end
+
 end
