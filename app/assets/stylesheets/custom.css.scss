@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+
+
+$lightGray: #999;
+
 /* universal */
 
 html {
@@ -29,6 +33,8 @@ textarea {
 /* Kolejne reguly dotyczace tekstu na stronie */
 /* typography */
 
+
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
@@ -46,7 +52,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #999;
+  color: $lightGray;
 }
 
 p {
@@ -82,7 +88,7 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #999;
+  color: $lightGray;
   a {
     color: #555;
     &:hover {
