@@ -1,3 +1,4 @@
+Srodowiska testowe :)
 rails c
 == README
 
