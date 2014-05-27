@@ -1,6 +1,6 @@
 SampleAppRails40::Application.routes.draw do
 
-   get "users/new"
+
 
 
 
