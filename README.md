@@ -1,3 +1,4 @@
+Czas na Model Micropost
 Srodowiska testowe :)
 rails c
 == README
