@@ -19,6 +19,7 @@ namespace :db do
     end
 
 
+
     users = User.all(limit: 6)
     50.times do
       content = Faker::Lorem.sentence(5)
