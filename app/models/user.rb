@@ -25,4 +25,11 @@ class User < ActiveRecord::Base
   def create_remember_token
     self.remember_token = User.digest(User.new_remember_token)
   end
+
+  def feed
+    # This is preliminary. See "Following users" for the full implementation.
+    Micropost.where("user_id = ?", id)
+  end
+
+
 end
